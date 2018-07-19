@@ -1,0 +1,22 @@
+for letter in word:
+  wordToGuess.append("_")
+  for i in range(0,30):
+    print("")
+  while not done:
+    guess=input("Guess a letter: ")
+    guesses.append(guess)
+    if(guess in word):
+    print("You got a letter")
+    wordToGuess[word.index(guess)]=gess
+    print(wordToGuess)
+
+    if not("_") in wordToGuess):
+      done=True
+      break
+    if done:
+      print("YOu won")
+  else:
+    print("Wrong letter")
+    numfails+=1
+    if numfails
+    print("You lost")

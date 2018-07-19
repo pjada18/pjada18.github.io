@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<style>
+    img{
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+  }
+
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.rotate90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+  li a {
+    list-style-type: georgian;
+
+  }
+  </style>
+<html>
+<head>
+  <title></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="drop2.css">
+</head>
+<body>
+
+<div class="pic1">
+<nav>
+    <ul>
+      <li><a href="drop.html">Home</a><li>
+      <li><a href="about.html">About Me</a><li>
+        <li><a href="#">Pictures</a>
+            <ul>
+              <li><a href="baby.html">Baby</a></li>
+              <li><a href="art.html">Art</a><li>
+              <li><a href="part.html">Parties</a></li>
+              <li><a href="friends.html">Friends</a></li>
+              <li><a href="grade.html">8th grade graduation</a></li>
+            </ul>
+          </li>
+      <li><a href="cont.html">Contact</a><li>
+    </ul>
+</nav>
+<div class="Friends">
+  <div class="row">
+    <div class="column">
+      <img src="dan.png" alt="three" width="400" height="300">
+    </div>
+    <div class="column">
+      <img src="blaire.jpg" alt="hand" width="400" height="300">
+    </div>
+    <div class="column">
+      <img src="sydj.jpg" alt="syd" width="298" height="300" class="rotate90">
+    </div>
+
+    <div class="row">
+      <div class="column">
+        <img src="pose.jpg" alt="mebl" width="400" height="300">
+
+      </div>
+      <div class="column">
+        <img src="nila.jpg" alt="lania" width="400" height="400" class="rotate90">
+      </div>
+      <div class="column">
+        <img src="maddie.png" alt="maddie" width="300" height="300">
+      </div>
+    </div>
+
+  
+      <div class="column">
+        <video width="400" height="300" controls>
+        <source src="state.mp4" type="video/mp4">
+
+      </div>
+      <div class="column">
+        <video width="400" height="300" controls>
+        <source src="drum.mp4" type="video/mp4">
+
+      </div>
+
+    </div>
+
+
+
+
+</video>
+</div>
+
+
+
+
+
+
+</body>
+</html>
